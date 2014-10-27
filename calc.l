@@ -3,7 +3,7 @@
     #include <stdlib.h>
     void yyerror(char *);
 %}
-
+/*esta fue la modificacion*/
 %%
 
 [0-9]+      {
