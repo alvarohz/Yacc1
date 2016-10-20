@@ -10,7 +10,7 @@
 %%
 program:
         program expr '\n'         { printf("%d\n", $2); }
-        | 
+        |                                               /*la cadena vacía es una producción*/
         ;
 
 expr:
